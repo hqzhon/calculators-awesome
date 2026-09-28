@@ -1,4 +1,4 @@
-# Awesome CalcDelta Calculators
+# CalcDelta: Free Online Calculators for Everyday Decisions
 
 <p align="center">
   <a href="https://calcdelta.com/">
@@ -6,49 +6,62 @@
   </a>
 </p>
 
-> A searchable directory for the calculators offered by [CalcDelta](https://calcdelta.com/), the product maintained in the [CalcDelta project repository](https://github.com/hqzhon/calc).
+Find a practical calculator for the numbers behind everyday decisions. [CalcDelta](https://calcdelta.com/) brings together **734 free online calculators across 33 categories**—including finance, health, math, unit conversion, cooking, home projects, travel, and more. Search by name or browse a category, enter your details, and see a result with its calculation explained.
 
-**Project relationship:** this directory is affiliated with CalcDelta and links directly to its calculator pages. CalcDelta's calculator implementation is **not open source**. This repository contains the directory website and a catalog snapshot; it is not a source-code mirror and does not include the calculator implementation.
+This repository contains the searchable directory website and a catalog snapshot. It links to calculators on the CalcDelta website; it does not contain the calculator implementation.
 
-## Project links
+## Contents
 
-- **Product:** [CalcDelta](https://calcdelta.com/)
-- **CalcDelta project repository:** [github.com/hqzhon/calc](https://github.com/hqzhon/calc) — project source is private.
-- **Directory site repository:** [github.com/hqzhon/calculators-awesome](https://github.com/hqzhon/calculators-awesome).
+- [Browse by category](#browse-by-calculator-category)
+- [Featured calculators](#featured-calculators)
+- [Preview locally](#preview-locally)
+- [Keep the catalog current](#keep-the-catalog-current)
+- [Deploy](#deploy)
+- [Project and attribution](#project-and-attribution)
 
-## Browse the directory
+## Browse by calculator category
 
-The site lists 734 English calculators across 33 categories in this snapshot. Search by name or description, filter by category, and open each calculator on the official [CalcDelta website](https://calcdelta.com/).
+Browse all 33 calculator categories on [CalcDelta](https://calcdelta.com/). Each category link opens its full collection of related tools.
 
-### Categories
-
-[Automotive][category-automotive] · [Cleaning][category-cleaning] · [Construction][category-construction] · [Conversion][category-conversion] · [Cooking][category-cooking] · [Crypto][category-crypto] · [Date & time][category-date-time] · [DIY & craft][category-diy-craft] · [Education][category-education] · [Electrical][category-electrical] · [Everyday][category-everyday] · [Fashion][category-fashion] · [Finance][category-finance] · [Fun][category-fun] · [Gaming][category-gaming] · [Gardening][category-gardening] · [Geometry][category-geometry] · [Health][category-health] · [Household][category-household] · [Math][category-math] · [Moving][category-moving] · [Music][category-music] · [Party][category-party] · [Pets][category-pets] · [Photography][category-photography] · [Productivity][category-productivity] · [Science][category-science] · [Shopping][category-shopping] · [Social media][category-social-media] · [Sports][category-sports] · [Statistics][category-statistics] · [Travel][category-travel] · [Weather][category-weather]
-
-The directory site is a dependency-free static page. To preview it locally, serve the repository root over HTTP:
-
-```sh
-python3 -m http.server 4173
-```
-
-Then open <http://localhost:4173>.
-
-## Keep the catalog current
-
-The catalog is generated from CalcDelta's private source checkout. From the CalcDelta repository, run:
-
-```sh
-node /path/to/calc-awesome/scripts/refresh-catalog.mjs
-```
-
-The script reads `data/calculators/*.json` and refreshes this repository's `data/calculators.json` with English titles, descriptions, categories, input counts, and official calculator URLs. Review the resulting changes before publishing.
-
-## Deploy
-
-This repository includes a GitHub Actions workflow for publishing to GitHub Pages from `main`. Enable Pages with GitHub Actions as the source to publish it; the Pages URL is not live yet. It can also be hosted on another static file service. There is no package install, build step, tracking script, or calculator API in this directory site.
+| Category | What you can calculate |
+| --- | --- |
+| [Automotive][category-automotive] | Fuel costs, mileage, vehicle performance, and ownership estimates. |
+| [Cleaning][category-cleaning] | Estimate cleaning costs, laundry costs, supplies, and household needs. |
+| [Construction][category-construction] | Concrete, flooring, roofing, and other building material estimates. |
+| [Conversion][category-conversion] | Convert common units for length, area, volume, weight, temperature, and more. |
+| [Cooking][category-cooking] | Scale recipes and convert ingredients, cooking times, and kitchen measurements. |
+| [Crypto][category-crypto] | Explore cryptocurrency amounts, prices, and return scenarios. |
+| [Date & time][category-date-time] | Work with dates, durations, time zones, countdowns, and calendars. |
+| [DIY & craft][category-diy-craft] | Plan craft materials, project dimensions, and do-it-yourself costs. |
+| [Education][category-education] | Calculate grades and support everyday academic planning. |
+| [Electrical][category-electrical] | Plan solar panel capacity and estimate voltage drop in a wire run. |
+| [Everyday][category-everyday] | Handle practical daily math, bill splitting, and personal planning. |
+| [Fashion][category-fashion] | Compare clothing and accessory sizes and fit measurements. |
+| [Finance][category-finance] | Estimate mortgage and loan payments, interest, savings, and budgets. |
+| [Fun][category-fun] | Try lighthearted quizzes, generators, and just-for-fun calculations. |
+| [Gaming][category-gaming] | Explore game-related stats, outcomes, and gameplay scenarios. |
+| [Gardening][category-gardening] | Plan garden beds, planting, watering, and growing projects. |
+| [Geometry][category-geometry] | Calculate shape dimensions, angles, areas, and volumes. |
+| [Health][category-health] | Explore BMI, calorie, fitness, and other general health estimates. |
+| [Household][category-household] | Estimate home energy, appliance use, water, and household needs. |
+| [Math][category-math] | Solve common problems with percentages, fractions, averages, and more. |
+| [Moving][category-moving] | Estimate moving costs, packing needs, and space for a move. |
+| [Music][category-music] | Work with notes, tempo, intervals, and other music measurements. |
+| [Party][category-party] | Plan event budgets, food, drinks, and guest quantities. |
+| [Pets][category-pets] | Estimate pet age, food portions, care needs, and ownership costs. |
+| [Photography][category-photography] | Calculate exposure, image sizes, lenses, and photography settings. |
+| [Productivity][category-productivity] | Calculate reading, writing, work time, and digital project estimates. |
+| [Science][category-science] | Explore practical calculations from physics and other sciences. |
+| [Shopping][category-shopping] | Compare discounts, prices, quantities, and shopping costs. |
+| [Social media][category-social-media] | Estimate engagement rates, creator metrics, and campaign scenarios. |
+| [Sports][category-sports] | Calculate pace, performance, scores, and training measurements. |
+| [Statistics][category-statistics] | Work with averages, distributions, percentiles, and statistical scores. |
+| [Travel][category-travel] | Estimate trip times, travel costs, routes, and accommodation trade-offs. |
+| [Weather][category-weather] | Explore weather-related conversions and planning estimates. |
 
 ## Featured calculators
 
-Here are 20 useful picks from the catalog, spanning common finance, health, date, math, home, and planning tasks:
+Explore 20 useful free online calculators selected from the directory:
 
 - [Mortgage Calculator][calc-mortgage] — Estimate a monthly payment with taxes, insurance, PMI, HOA, and extra payments.
 - [Compound Interest Calculator][calc-compound-interest] — Project growth with flexible compounding frequency.
@@ -71,9 +84,35 @@ Here are 20 useful picks from the catalog, spanning common finance, health, date
 - [Tip Calculator][calc-tip] — Calculate a tip and split the bill between people.
 - [GPA Calculator][calc-gpa] — Calculate a grade point average from grades and credit hours.
 
-## Attribution
+## Preview locally
 
-CalcDelta is maintained by [Jackie Zhong](https://github.com/hqzhon). The calculator product is at [calcdelta.com](https://calcdelta.com/); its project repository is [github.com/hqzhon/calc](https://github.com/hqzhon/calc). The directory is a separate index for that product, not an independent calculator engine.
+The directory is a dependency-free static site. To preview it locally, serve the repository root over HTTP:
+
+```sh
+python3 -m http.server 4173
+```
+
+Then open <http://localhost:4173>.
+
+## Keep the catalog current
+
+The catalog is generated from CalcDelta's private source checkout. From the CalcDelta repository, run:
+
+```sh
+node /path/to/calc-awesome/scripts/refresh-catalog.mjs
+```
+
+The script reads `data/calculators/*.json` and refreshes this repository's `data/calculators.json` with English titles, descriptions, categories, input counts, and official calculator URLs. Review the resulting changes before publishing.
+
+## Deploy
+
+This repository includes a GitHub Actions workflow for publishing to GitHub Pages from `main`. Enable Pages with GitHub Actions as the source to publish it; the Pages URL is not live yet. It can also be hosted on another static file service. There is no package install, build step, tracking script, or calculator API in this directory site.
+
+## Project and attribution
+
+The calculator product is [CalcDelta](https://calcdelta.com/), maintained by [Jackie Zhong](https://github.com/hqzhon). Its project repository is [github.com/hqzhon/calc](https://github.com/hqzhon). This repository hosts the separate directory site and catalog snapshot, not an independent calculator engine. CalcDelta's calculator implementation is not open source.
+
+The catalog snapshot in this repository lists 734 English calculators across 33 categories. Counts and calculator links can change as the catalog is refreshed.
 
 [category-automotive]: https://calcdelta.com/automotive/
 [category-cleaning]: https://calcdelta.com/cleaning/
