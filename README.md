@@ -1,5 +1,11 @@
 # Awesome CalcDelta Calculators
 
+<p align="center">
+  <a href="https://calcdelta.com/">
+    <img src="assets/calcdelta-en-social-card.webp" alt="CalcDelta — Free online calculators" width="1200">
+  </a>
+</p>
+
 > A searchable directory for the calculators offered by [CalcDelta](https://calcdelta.com/), the product maintained in the [CalcDelta project repository](https://github.com/hqzhon/calc).
 
 **Project relationship:** this directory is affiliated with CalcDelta and links directly to its calculator pages. CalcDelta's calculator implementation is **not open source**. This repository contains the directory website and a catalog snapshot; it is not a source-code mirror and does not include the calculator implementation.
