@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f3eb">
+    <meta name="description" content="Browse a searchable index of 734 free online calculators for money, health, math, home, travel and everyday decisions.">
+    <title>CalcDelta — The calculator index</title>
+    <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#directory">Skip to calculator directory</a>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="CalcDelta directory home">
+        <img src="assets/mark.svg" alt="" width="34" height="34">
+        <span>CalcDelta<span class="brand-dot">.</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#directory">Directory</a>
+        <a href="#how-it-works">How it works</a>
+        <a class="nav-visit" href="https://calcdelta.com/">Visit CalcDelta <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> THE CALCULATOR INDEX <span class="eyebrow-year">EST. 2024</span></p>
+          <h1 id="hero-title">A clear answer<br>starts with <em>good math.</em></h1>
+          <p class="hero-description">A field guide to practical calculators for the numbers behind everyday decisions. Search the collection, pick a tool, and see how the result is worked out.</p>
+          <a class="hero-cta" href="#directory">Explore all calculators <span aria-hidden="true">↓</span></a>
+          <div class="hero-note"><span class="note-star">✳</span><span>Instant, free, and no account needed.</span></div>
+        </div>
+        <div class="hero-art" aria-label="An abstract illustration of a calculator and plotted result">
+          <div class="art-grid"></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="art-card">
+            <div class="card-top"><span class="card-lamp"></span><span>RESULT / 01</span><span>↗</span></div>
+            <p class="art-label">MONTHLY PAYMENT</p>
+            <div class="art-value"><span>$</span>2,147<span class="cents">.29</span></div>
+            <div class="art-rule"></div>
+            <div class="art-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><i></i></div>
+            <div class="art-foot"><span>PRINCIPAL + INTEREST</span><strong>30 YR · FIXED</strong></div>
+          </div>
+          <div class="art-sticker"><span>734</span><small>WAYS TO<br>CHECK THE MATH</small></div>
+          <div class="art-coordinate coord-a">37° 33′ N</div><div class="art-coordinate coord-b">A BETTER KIND OF ANSWER</div>
+        </div>
+        <div class="hero-bottom"><span>TOOLS FOR THE THINGS THAT ADD UP</span><span>01 — 33 CATEGORIES</span></div>
+      </section>
+
+      <section class="directory section-wrap" id="directory" aria-labelledby="directory-title">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> FIND YOUR FIGURE</p><h2 id="directory-title">The directory<span class="heading-count" id="total-count">734</span></h2></div>
+          <p class="section-aside">Browse by subject or search by name.<br>Every link opens its calculator directly.</p>
+        </div>
+        <div class="directory-tools">
+          <label class="search-box" for="search-input"><span aria-hidden="true" class="search-symbol">⌕</span><input id="search-input" type="search" placeholder="Try “mortgage”, “paint” or “body mass”…" autocomplete="off"><kbd>/</kbd></label>
+          <div class="category-row" id="category-filters" aria-label="Filter by category"></div>
+          <div class="results-meta"><span id="result-count" aria-live="polite">Loading calculators…</span><button id="clear-filters" class="clear-button" type="button" hidden>Clear filters <span aria-hidden="true">×</span></button></div>
+        </div>
+        <div class="calculator-grid" id="calculator-grid" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state" hidden><span class="empty-mark">∅</span><h3>No calculators found</h3><p>Try a broader search or clear your filters.</p></div>
+        <div class="directory-end"><span class="end-line"></span><p>You’re all caught up.</p><span class="end-line"></span></div>
+      </section>
+
+      <section class="principles" id="how-it-works" aria-labelledby="principles-title">
+        <div class="principles-inner">
+          <div class="principles-title"><p class="eyebrow"><span class="eyebrow-line"></span> A NOTE ON THE NUMBERS</p><h2 id="principles-title">Show your work.<br><em>Trust the answer.</em></h2></div>
+          <div class="principle-list">
+            <article><span class="principle-no">01</span><div><h3>Results you can check</h3><p>Calculators pair a direct result with formulas and worked examples, so you can follow the arithmetic and review the assumptions.</p></div></article>
+            <article><span class="principle-no">02</span><div><h3>Private by default</h3><p>Calculations run in your browser. No account is needed. Changed values can appear in a shareable page URL.</p></div></article>
+            <article><span class="principle-no">03</span><div><h3>Estimates, with context</h3><p>Financial, health, and other tools support general understanding. They are not professional advice or a substitute for it.</p></div></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand footer-brand" href="#top"><img src="assets/mark.svg" alt="" width="29" height="29"><span>CalcDelta<span class="brand-dot">.</span></span></a>
+      <p>Useful math, made easier to inspect.</p>
+      <div class="footer-links"><a href="https://calcdelta.com/about/">About</a><a href="https://github.com/hqzhon/calc">Source project</a><a href="https://calcdelta.com/">Open CalcDelta ↗</a></div>
+      <small>© 2026 CalcDelta · Directory snapshot updated September 2026</small>
+    </footer>
+  </body>
+</html>
